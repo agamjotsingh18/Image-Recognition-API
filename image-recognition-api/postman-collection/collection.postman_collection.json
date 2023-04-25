@@ -21,7 +21,7 @@
 					]
 				},
 				"url": {
-					"raw": "localhost:3000/predict/upload",
+					"raw": "https://localhost:3000/predict/upload/",
 					"host": [
 						"localhost"
 					],
@@ -49,7 +49,7 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:3000/predict",
+					"raw": "https://localhost:3000/predict/",
 					"host": [
 						"localhost"
 					],
@@ -67,7 +67,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:3000/hello",
+					"raw": "https://localhost:3000/hello/",
 					"host": [
 						"localhost"
 					],

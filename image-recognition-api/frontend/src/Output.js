@@ -11,7 +11,7 @@ export default function Output(props) {
                         width: "100%",
                         maxWidth: "400px",
                         height: "auto"
-                    }} alt="image-to-predict"
+                    }} alt="img-to-predict"
                     /> : <div>
                         Image to predict will be shown here
                     </div>}
@@ -28,7 +28,7 @@ export default function Output(props) {
                     </thead>
                     <tbody>
                         {outputs.map((o, i) => {
-                            return <tr>
+                            return <tr key={i}>
                                 <td>{i + 1}</td>
                                 <td>{o.name}</td>
                                 <td>{o.value}</td>
