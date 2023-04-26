@@ -1,13 +1,13 @@
 {
   "name": "react-express-clarifai",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./app.js",
-    "start:dev": "nodemon ./app.js"
-    },
+    "start:dev": "nodemon ./app.js",
+    "build": "cd frontend && npm install && npm run build"
+  },
   "engines": {
     "node": "16.13.1"
   },
@@ -23,5 +23,7 @@
   },
   "devDependencies": {
     "cross-env": "^7.0.3"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
