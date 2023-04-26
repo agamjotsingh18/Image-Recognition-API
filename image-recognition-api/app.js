@@ -2,13 +2,13 @@ const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser')
 const http = require('http');
-const predictRouter = require('image-recognition-api/routes/predict');
+const predictRouter = require('./routes/predict');
 
 const app = express();
 // We added bodyParser so that we can access `body` in `req` later
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join(__dirname, 'public')));
 app.get('/hello', function (req, res) {
     res.send("hello")
 });
