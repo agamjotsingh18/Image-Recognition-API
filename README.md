@@ -1,3 +1,31 @@
+# Image Recognition API Webapp
+
+This is a web application that provides an API for image recognition using the Clarifai API. It allows you to send images to the API and receive predictions and analysis based on the content of the images.
+
+## Features
+Upload images for recognition and analysis.
+Receive predictions and analysis results based on the content of the images.
+Supports multiple image formats.
+
+## Technologies Used
+<ul class="generatedList"> 
+   <li>Node.js </li>
+   <li>
+Express.js </li>
+   <li>
+Clarifai API </li>
+   <li>
+Axios </li>
+   <li>
+Multer </li>
+   <li>
+Body-parser </li>
+   <li>
+Dotenv </li>
+</ul>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
